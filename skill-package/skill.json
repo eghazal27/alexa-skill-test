@@ -1,0 +1,52 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Check your system battery level",
+          "examplePhrases": [
+            "Alexa, ask Battery Status what's my battery level",
+            "Alexa, ask Battery Status for battery percentage",
+            "Alexa, open Battery Status"
+          ],
+          "keywords": [
+            "battery",
+            "status",
+            "level",
+            "percentage",
+            "system"
+          ],
+          "name": "Battery Status",
+          "description": "Get your system battery level from your monitoring system. Simply ask about your battery level and get instant status updates."
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Say 'Alexa, ask Battery Status what's my battery level' to test the skill.",
+      "category": "UTILITIES",
+      "distributionCountries": [
+        "US"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "",
+          "privacyPolicyUrl": ""
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

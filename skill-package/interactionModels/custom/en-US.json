@@ -1,0 +1,48 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "battery status",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetBatteryIntent",
+          "slots": [],
+          "samples": [
+            "what's my battery level",
+            "check my battery",
+            "battery percentage",
+            "how much battery do I have",
+            "what's the battery status",
+            "check battery level",
+            "battery level",
+            "what is my battery at",
+            "battery info",
+            "show me battery",
+            "get battery status",
+            "battery check"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
